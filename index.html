@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css"
+    integrity="sha512-3PN6gfRNZEX4YFyz+sIyTF6pGlQiryJu9NlGhu9LrLMQ7eDjNgudQoFDK3WSNAayeIKc6B8WXXpo4a7HqxjKwg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap 5 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <!-- BOX ICONS CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <title>Training Demo in Eduonix Learning</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+
+    <ul class="nav flex-column text-white w-100 mb-5">
+      <!-- Top Nav -->
+      <nav class="navbar top-navbar navbar-light px-5">
+        <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
+      </nav>
+      <li href="#" class="nav-link">
+        <i class="fa-solid fa-chart-simple"></i>
+        <span class="mx-2">Dashboard</span>
+      </li>
+      <li href="#" class="nav-link">
+        <i class="fa-regular fa-user"></i>
+        <span class="mx-2">Placeholder</span>
+      </li>
+      <li href="#" class="nav-link">
+        <i class="fa-regular fa-newspaper"></i>
+        <i class="fa-sharp fa-solid fa-notebook"></i>
+        <span class="mx-2">Placeholder</span>
+      </li>
+      <li href="#" class="nav-link">
+        <i class="fa-solid fa-arrow-trend-up"></i>
+        <span class="mx-2">Reports</span>
+      </li>
+      <li href="#" class="nav-link">
+        <i class="fa-solid fa-sliders"></i>
+        <span class="mx-2">Setting</span>
+      </li>
+      <li href="#" class="nav-link">
+        <i class="fa-regular fa-newspaper"></i>
+        <span class="mx-2">Transaction</span>
+      </li>
+      <li href="#" class="nav-link">
+        <i class='fas fa-play-circle'></i>
+        <span class="mx-2">Demo</span>
+      </li>
+      <li href="#" class="nav-link">
+        <i class="fa-regular fa-newspaper"></i>
+        <i class="fa-regular fa-arrow-up-left-from-circle"></i>
+        <span class="mx-2">Logout</span>
+      </li>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <li class="switch">Switch to User Mode</li>
+    </ul>
+  </div>
+
+  <!-- Main Wrapper -->
+  <div class="p-1 my-container active-cont">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid" id="navheading">
+        <span class="navbar-brand mb-0 h1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling" id="menu-btn"><b>T</b>raining Demo</span>
+      </div>
+    </nav>
+
+    <div id="cardbody">
+      <div>
+        <div>
+          <button type="button" class="btn border-info m-3" id="arrowbtn"><i class="fa-solid fa-arrow-left"
+              id="arrow"></i></button>
+          <span><b>Technology</b></span>
+          <span class="m-2 border-info primary-hover"><i class="fa-solid fa-ellipsis"></i></span>
+          <div id="Category">Category: <input type="text" id="inp" placeholder="2" class="border border-info"></div>
+        </div>
+        <div id="searchbox" class="m-1 mb-2">
+          <form role="search">
+            <input type="text" placeholder="Search By Users names" class="border border-info">
+            <button type="button" class="btn border-info" style="width: 33px; height: 33px;"><span><i
+                  class="fa-solid fa-magnifying-glass" style="width: 10px; height: 10px;"></i></button>
+            <button type="button" class="btn btn-info" id="plusbtn">+ Add Member</button>
+          </form>
+        </div>
+      </div>
+      <table class="table table-borderless mt-3 mb-2 " id="my-table">
+        <thead class="mt-3 mb-2">
+          <tr class="mt-3 mb-2">
+            <th scope="col">Users <input type="text" id="inp" placeholder="2" class="border border-info"><i
+                class="fa-solid fa-arrow-up"></i> <i class="fa-solid fa-download"></i></th>
+            <th scope="col">Add Time <i class="fa-solid fa-arrow-up"></i><i class="fa-solid fa-download"></i></th>
+            <th scope="col">
+              <div class="input-group-sm">
+                <button class="btn btn-light-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" id="status-filter"><b>Status</b></button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </th>
+            <th scope="col">Assign</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody class="m-2">
+          <tr>
+            <td>
+              <span class="sm" style="float: right;"> <button class=" btn-sm border border-info" type="button"
+                  id="admin">Admin</button></span>
+              <h6>Sagar Kodalkar</h6>
+              <p>sagark@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 15, 2023, 09:15 AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class=" btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+          <tr>
+            <td class="m-3">
+              <h6>Pallavi Bagul</h6>
+              <p>pallavib@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 16, 2023, 09:15 AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class="btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+          <tr class="m-3">
+            <td>
+              <h6>Ashraf karawala</h6>
+              <p>ashraf@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 18, 2023, 09:15 AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class="btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+          <tr class="m-3">
+            <td>
+              <h6>Ashwini Avhad</h6>
+              <p>Ashvini@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 12, 2023, 09:54 AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class="btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+          <tr class="m-3">
+            <td>
+              <h6>Pratiksha Padval</h6>
+              <p>pratiksha@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 2, 2023, 09:12 AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class="btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+          <tr class="m-3">
+            <td>
+              <h6>Rajashri karande</h6>
+              <p>rajshri@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 1, 2023, 03:15 AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class="btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+          <tr>
+            <td class="m-3">
+              <h6>Govin Dsilva</h6>
+              <p>govin@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 5, 2023, 07:42 AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class="btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+          <tr class="m-3">
+            <td>
+              <h6>Mark</h6>
+              <p>Mark@eduonix.com</p>
+            </td>
+            <td>
+              <p>Feb 7, 2023, 04: AM</p>
+            </td>
+            <td>
+              <div class="input-group-sm">
+                <button class="btn border border-info dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Active</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Active</a></li>
+                  <li><a class="dropdown-item" href="#">Inactive</a></li>
+                  <li><a class="dropdown-item" href="#">Delete</a></li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <button class="btn border border-info" type="button">+</button>
+            </td>
+            <td class="dep"> Change Department</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

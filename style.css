@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #212427;
+  background: #ffffff;
+  ;
+}
+
+body {
+  min-height: 100vh;
+  color: #0b0b0b
+}
+
+.side-navbar {
+  width: 270px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.04);
+  /* background-color: #100901; */
+  transition: 0.5s;
+
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: linear-gradient(90.01deg, #FFFFFF 26.91%, #E3F4FF 99.99%);
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 280px;
+}
+
+#menu-btn {
+  background-color: #ffffff;
+  color: #070707;
+  margin-left: -42px;
+}
+
+.my-container input {
+  border-radius: 2rem;
+  padding: 2px 20px;
+}
+
+#navheading {
+  width: 1170px;
+  height: 49px;
+  left: 270px;
+  top: 0px;
+  background: linear-gradient(90.01deg, #FFFFFF 26.91%, #E3F4FF 99.99%);
+}
+
+#navheading span::first-letter {
+  font-size: 120%;
+  font-weight: 1000;
+  color: #EA472A;
+}
+
+.switch {
+  margin: auto;
+  color: #00A3FF;
+}
+
+#cardbody {
+  margin: 10px;
+  border: none;
+  border-radius: 0px;
+  background: #ffffff;
+}
+
+#Category {
+  float: right;
+  left: 0%;
+}
+
+.my-container input {
+  border-radius: 0rem;
+  padding: 2px 20px;
+}
+
+table tr {
+  background: #FFFFFF;
+}
+
+.dep {
+  color: #00A3FF;
+}
+
+#inp {
+  width: 10px;
+  height: 25px;
+}
+
+#admin {
+  background: #06D1B9;
+  border-radius: 3px;
+}
+
+#arrowbtn {
+  background: #00A3FF;
+}
+
+#arrow {
+  background: #00A3FF;
+}
+
+#plusbtn {
+  background: #00A3FF;
+  float: right;
+  left: 0%;
+}
+
+tr {
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 7px 7px 53px #e8e8e8,
+    -7px -7px 53px #ffffff;
+}
